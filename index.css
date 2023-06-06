@@ -132,3 +132,67 @@ nav {
     align-items: center;
     flex: 1;
 }
+
+.quote {
+    background-color: #f2d1a0;
+}
+
+.quote-container {
+    display: flex;
+    width: 900px;
+    margin: auto;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #745342;
+}
+
+.ads {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ads-container {
+    background-color: #aa0000;
+    width: 900px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px 100px;
+    box-sizing: border-box;
+}
+
+.ads-left {
+    width: 80%;
+    color: white;
+}
+
+.ads-left > * {
+    margin: 0;
+}
+
+.ads-right {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ads-right > button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #745342;
+    text-align: center;
+    color: white;
+}
